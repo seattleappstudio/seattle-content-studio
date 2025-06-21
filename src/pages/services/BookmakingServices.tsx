@@ -127,7 +127,7 @@ const BookmakingServices: React.FC = () => {
                   </div>
                   <div className="flex items-center">
                     <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
-                    <span className="text-gray-700">Book marketing microsites</span>
+                    <span className="text-gray-700">Book selling microsites</span>
                   </div>
                   <div className="flex items-center">
                     <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
