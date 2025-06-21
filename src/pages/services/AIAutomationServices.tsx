@@ -105,31 +105,31 @@ const AIAutomationServices: React.FC = () => {
 
                 <h3 className="text-2xl font-semibold text-gray-900 mb-4">Automation Solutions</h3>
                 
-                <div className="grid md:grid-cols-2 gap-6 mb-8">
-                  <Link to="/blog" className="flex items-center hover:text-indigo-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-indigo-600 mr-3" />
-                    <span className="text-gray-700 hover:text-indigo-600">Workflow automation using Make, Zapier</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-indigo-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-indigo-600 mr-3" />
-                    <span className="text-gray-700 hover:text-indigo-600">CRM/email/scheduling integrations</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-indigo-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-indigo-600 mr-3" />
-                    <span className="text-gray-700 hover:text-indigo-600">AI agents for business ops</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-indigo-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-indigo-600 mr-3" />
-                    <span className="text-gray-700 hover:text-indigo-600">Custom automation solutions</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-indigo-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-indigo-600 mr-3" />
-                    <span className="text-gray-700 hover:text-indigo-600">Data synchronization and migration</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-indigo-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-indigo-600 mr-3" />
-                    <span className="text-gray-700 hover:text-indigo-600">Automated reporting and analytics</span>
-                  </Link>
+                 <div className="grid md:grid-cols-2 gap-6 mb-8">
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">AI consulting and enterprise readiness assessment</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Workflow automation (Make, Zapier, n8n)</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">CRM, ERP, and marketing tool integrations</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Custom GPT-based chatbot development</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Automation of content generation and tagging</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Agent-based process orchestration</span>
+                  </div>
                 </div>
 
                 <div className="bg-indigo-50 rounded-lg p-6 mb-8">

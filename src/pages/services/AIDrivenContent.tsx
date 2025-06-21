@@ -105,31 +105,31 @@ const AIDrivenContent: React.FC = () => {
 
                 <h3 className="text-2xl font-semibold text-gray-900 mb-4">What You Get</h3>
                 
-                <div className="grid md:grid-cols-2 gap-6 mb-8">
-                  <Link to="/blog" className="flex items-center hover:text-emerald-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-emerald-600 mr-3" />
-                    <span className="text-gray-700 hover:text-emerald-600">Weekly/monthly blog posts</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-emerald-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-emerald-600 mr-3" />
-                    <span className="text-gray-700 hover:text-emerald-600">Newsletter content</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-emerald-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-emerald-600 mr-3" />
-                    <span className="text-gray-700 hover:text-emerald-600">SEO optimization</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-emerald-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-emerald-600 mr-3" />
-                    <span className="text-gray-700 hover:text-emerald-600">Industry insights</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-emerald-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-emerald-600 mr-3" />
-                    <span className="text-gray-700 hover:text-emerald-600">Social media content</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-emerald-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-emerald-600 mr-3" />
-                    <span className="text-gray-700 hover:text-emerald-600">Content performance analytics</span>
-                  </Link>
+                 <div className="grid md:grid-cols-2 gap-6 mb-8">
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Expert blog writing and long-form articles</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">AI-assisted content ideation and drafting</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">AI-powered newsletter generation</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">SEO-optimized content strategies</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Social media post automation and scheduling</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">•	Content calendar planning and editorial workflows</span>
+                  </div>
                 </div>
 
                 <div className="bg-emerald-50 rounded-lg p-6">

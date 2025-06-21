@@ -109,31 +109,47 @@ const WordPressWebsites: React.FC = () => {
 
                 <h3 className="text-2xl font-semibold text-gray-900 mb-4">WordPress Solutions</h3>
                 
-                <div className="grid md:grid-cols-2 gap-6 mb-8">
-                  <Link to="/blog" className="flex items-center hover:text-green-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-green-600 mr-3" />
-                    <span className="text-gray-700 hover:text-green-600">Marketing websites</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-green-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-green-600 mr-3" />
-                    <span className="text-gray-700 hover:text-green-600">Landing pages and microsites</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-green-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-green-600 mr-3" />
-                    <span className="text-gray-700 hover:text-green-600">SEO optimization</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-green-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-green-600 mr-3" />
-                    <span className="text-gray-700 hover:text-green-600">Custom themes & plugins</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-green-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-green-600 mr-3" />
-                    <span className="text-gray-700 hover:text-green-600">E-commerce integration</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-green-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-green-600 mr-3" />
-                    <span className="text-gray-700 hover:text-green-600">Performance optimization</span>
-                  </Link>
+                 <div className="grid md:grid-cols-2 gap-6 mb-8">
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Custom WordPress site development</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Landing pages, microsites, and funnels</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">SEO audit and optimization</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Headless WordPress with front-end frameworks</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">WooCommerce setup and customization</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Migrating WordPress to Confluence</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Plugin configuration and custom plugin dev</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Theme modifications and custom theme dev</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Integration with CRM and marketing tools</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Ongoing maintenance and performance tuning</span>
+                  </div>
                 </div>
 
                 <div className="bg-green-50 rounded-lg p-6 mb-8">

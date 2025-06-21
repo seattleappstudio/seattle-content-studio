@@ -105,31 +105,47 @@ const AppBasedContentAndSites: React.FC = () => {
 
                 <h3 className="text-2xl font-semibold text-gray-900 mb-4">App Solutions</h3>
                 
-                <div className="grid md:grid-cols-2 gap-6 mb-8">
-                  <Link to="/blog" className="flex items-center hover:text-teal-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-teal-600 mr-3" />
-                    <span className="text-gray-700 hover:text-teal-600">Interactive apps for publishing content</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-teal-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-teal-600 mr-3" />
-                    <span className="text-gray-700 hover:text-teal-600">Bubble.io-based microapps</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-teal-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-teal-600 mr-3" />
-                    <span className="text-gray-700 hover:text-teal-600">Storytelling tools for mobile/web</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-teal-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-teal-600 mr-3" />
-                    <span className="text-gray-700 hover:text-teal-600">Custom web applications</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-teal-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-teal-600 mr-3" />
-                    <span className="text-gray-700 hover:text-teal-600">Progressive web apps (PWAs)</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-teal-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-teal-600 mr-3" />
-                    <span className="text-gray-700 hover:text-teal-600">Data visualization dashboards</span>
-                  </Link>
+                 <div className="grid md:grid-cols-2 gap-6 mb-8">
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Custom React + TypeScript app dev</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Bubble.io MVP and prototype builds</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Internal tool and dashboard creation</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Interactive e-learning and quiz apps</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Client portals and gated content systems</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Microsites for campaigns or products</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Webflow integrations and API connectors</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Headless CMS integration and setup</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Custom microapps and calculators</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Vibe coding for rapid MVP prototypes</span>
+                  </div>
                 </div>
 
                 <div className="bg-teal-50 rounded-lg p-6 mb-8">

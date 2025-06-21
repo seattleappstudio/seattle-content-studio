@@ -103,31 +103,39 @@ const TechnicalDocumentation: React.FC = () => {
 
                 <h3 className="text-2xl font-semibold text-gray-900 mb-4">Documentation Types</h3>
                 
-                <div className="grid md:grid-cols-2 gap-6 mb-8">
-                  <Link to="/services/solutions/api-reference-documentation" className="flex items-center hover:text-blue-600 transition-colors duration-300">
+                 <div className="grid md:grid-cols-2 gap-6 mb-8">
+                  <div className="flex items-center">
                     <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
-                    <span className="text-gray-700 hover:text-blue-600">API reference documentation</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-blue-600 transition-colors duration-300">
+                    <span className="text-gray-700">API reference documentation</span>
+                  </div>
+                  <div className="flex items-center">
                     <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
-                    <span className="text-gray-700 hover:text-blue-600">Developer tutorials & walkthroughs</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-blue-600 transition-colors duration-300">
+                    <span className="text-gray-700">Developer tutorials and walkthroughs</span>
+                  </div>
+                  <div className="flex items-center">
                     <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
-                    <span className="text-gray-700 hover:text-blue-600">How-to guides</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-blue-600 transition-colors duration-300">
+                    <span className="text-gray-700">User guides and onboarding documentation</span>
+                  </div>
+                  <div className="flex items-center">
                     <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
-                    <span className="text-gray-700 hover:text-blue-600">Technical editing</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-blue-600 transition-colors duration-300">
+                    <span className="text-gray-700">Software installation and configuration guides</span>
+                  </div>
+                  <div className="flex items-center">
                     <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
-                    <span className="text-gray-700 hover:text-blue-600">User guides and onboarding</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-blue-600 transition-colors duration-300">
+                    <span className="text-gray-700">Troubleshooting and FAQ documentation</span>
+                  </div>
+                  <div className="flex items-center">
                     <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
-                    <span className="text-gray-700 hover:text-blue-600">Integration guides</span>
-                  </Link>
+                    <span className="text-gray-700">Technical editing and style guide compliance</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Architecture and system design documentation</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Process documentation for DevOps and QA</span>
+                  </div>
                 </div>
 
                 <div className="bg-blue-50 rounded-lg p-6 mb-8">

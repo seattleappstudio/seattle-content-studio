@@ -105,31 +105,39 @@ const WhitepapersAndCaseStudies: React.FC = () => {
 
                 <h3 className="text-2xl font-semibold text-gray-900 mb-4">Content Types</h3>
                 
-                <div className="grid md:grid-cols-2 gap-6 mb-8">
-                  <Link to="/blog" className="flex items-center hover:text-purple-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-purple-600 mr-3" />
-                    <span className="text-gray-700 hover:text-purple-600">Technical whitepapers</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-purple-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-purple-600 mr-3" />
-                    <span className="text-gray-700 hover:text-purple-600">Customer case studies</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-purple-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-purple-600 mr-3" />
-                    <span className="text-gray-700 hover:text-purple-600">Research reports</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-purple-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-purple-600 mr-3" />
-                    <span className="text-gray-700 hover:text-purple-600">Industry analysis</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-purple-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-purple-600 mr-3" />
-                    <span className="text-gray-700 hover:text-purple-600">Solution briefs</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-purple-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-purple-600 mr-3" />
-                    <span className="text-gray-700 hover:text-purple-600">Competitive analyses</span>
-                  </Link>
+                 <div className="grid md:grid-cols-2 gap-6 mb-8">
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Technical whitepapers and R&D summaries</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Data-driven industry analysis reports</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Customer success case studies</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Vision and roadmap whitepapers</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Thought leadership content development</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Solution briefs and executive summaries</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Use case and implementation guides</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Vertical-specific market reports</span>
+                  </div>
                 </div>
 
                 <div className="bg-purple-50 rounded-lg p-6 mb-8">

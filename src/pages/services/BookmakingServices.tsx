@@ -104,31 +104,48 @@ const BookmakingServices: React.FC = () => {
 
                 <h3 className="text-2xl font-semibold text-gray-900 mb-4">Bookmaking Solutions</h3>
                 
-                <div className="grid md:grid-cols-2 gap-6 mb-8">
-                  <Link to="/blog" className="flex items-center hover:text-amber-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-3" />
-                    <span className="text-gray-700 hover:text-amber-600">Ghostwriting</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-amber-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-3" />
-                    <span className="text-gray-700 hover:text-amber-600">Books and Ebooks</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-amber-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-3" />
-                    <span className="text-gray-700 hover:text-amber-600">Book Editing</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-amber-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-3" />
-                    <span className="text-gray-700 hover:text-amber-600">Book Indexing</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-amber-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-3" />
-                    <span className="text-gray-700 hover:text-amber-600">Manuscript development</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-amber-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-3" />
-                    <span className="text-gray-700 hover:text-amber-600">Publishing consultation</span>
-                  </Link>
+                 <div className="grid md:grid-cols-2 gap-6 mb-8">
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Ghostwriting for nonfiction and memoir</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Book proposal writing and development</span> 
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Print and ebook formatting and design</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Developmental and copy editing</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Indexing and glossary creation</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Book marketing microsites</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Self-publishing consultation</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Citation and reference editing</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Author branding and marketing content</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Creative writing coaching and mentoring</span>
+                  </div>
+                  
                 </div>
 
                 <div className="bg-amber-50 rounded-lg p-6 mb-8">

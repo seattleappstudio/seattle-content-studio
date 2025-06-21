@@ -104,31 +104,39 @@ const TechEventCoverage: React.FC = () => {
 
                 <h3 className="text-2xl font-semibold text-gray-900 mb-4">Coverage Services</h3>
                 
-                <div className="grid md:grid-cols-2 gap-6 mb-8">
-                  <Link to="/blog" className="flex items-center hover:text-orange-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-orange-600 mr-3" />
-                    <span className="text-gray-700 hover:text-orange-600">Event live-tweeting</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-orange-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-orange-600 mr-3" />
-                    <span className="text-gray-700 hover:text-orange-600">Post-event summaries</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-orange-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-orange-600 mr-3" />
-                    <span className="text-gray-700 hover:text-orange-600">Speaker interviews</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-orange-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-orange-600 mr-3" />
-                    <span className="text-gray-700 hover:text-orange-600">Trend analysis</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-orange-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-orange-600 mr-3" />
-                    <span className="text-gray-700 hover:text-orange-600">LinkedIn content creation</span>
-                  </Link>
-                  <Link to="/blog" className="flex items-center hover:text-orange-600 transition-colors duration-300">
-                    <CheckCircle className="h-5 w-5 text-orange-600 mr-3" />
-                    <span className="text-gray-700 hover:text-orange-600">Video content and highlights</span>
-                  </Link>
+                 <div className="grid md:grid-cols-2 gap-6 mb-8">
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Live blogging and real-time updates</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Session recaps and conference summaries</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Executive and keynote speech highlights</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Speaker interviews and Q&A features</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Social media and newsletter recaps</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Event landing page and content hub creation</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Panel discussion synthesis and insights</span>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckCircle className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="text-gray-700">Photo galleries and visual documentation</span>
+                  </div>
                 </div>
 
                 <div className="bg-orange-50 rounded-lg p-6 mb-8">
